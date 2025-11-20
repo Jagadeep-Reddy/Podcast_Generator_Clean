@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Generator (Multi-Agent)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="icon">🎙️</span>
+                <h1>PodGen AI</h1>
+            </div>
+
+            <div class="history-section">
+                <h3>Previous Episodes</h3>
+                <div id="history-list" class="history-list">
+                    <!-- History items will be injected here -->
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h2>Create New Episode</h2>
+                <div class="status-indicator" id="status-indicator">Ready</div>
+            </header>
+
+            <div class="creation-flow">
+                <!-- Step 1: Source -->
+                <section class="step-card" id="step-source">
+                    <div class="step-header">
+                        <span class="step-number">1</span>
+                        <h3>Upload Source</h3>
+                    </div>
+                    <div class="step-content">
+                        <div class="tabs">
+                            <button class="tab-btn active" data-tab="text">Paste Text</button>
+                            <button class="tab-btn" data-tab="file">Upload File</button>
+                        </div>
+
+                        <div class="tab-content active" id="tab-text">
+                            <textarea id="source-text"
+                                placeholder="Paste your article, report, or notes here..."></textarea>
+                        </div>
+                        <div class="tab-content" id="tab-file">
+                            <div class="file-upload-area" id="drop-zone">
+                                <p>Drag & drop or click to upload</p>
+                                <input type="file" id="source-file" hidden>
+                            </div>
+                            <div id="file-name-display"></div>
+                        </div>
+                        <button id="confirm-source-btn" class="primary-btn">Next: Configuration</button>
+                    </div>
+                </section>
+
+                <!-- Step 2: Configuration -->
+                <section class="step-card disabled" id="step-config">
+                    <div class="step-header">
+                        <span class="step-number">2</span>
+                        <h3>Configuration</h3>
+                    </div>
+                    <div class="step-content">
+                        <div class="form-group">
+                            <label>Topic / Angle</label>
+                            <input type="text" id="topic-input"
+                                placeholder="e.g., The future of AI, Summary of the report">
+                        </div>
+                        <div class="form-group">
+                            <label>Voice Style</label>
+                            <select id="voice-select">
+                                <option value="casual">Casual Conversation</option>
+                                <option value="news">News Anchor</option>
+                                <option value="story">Storyteller</option>
+                            </select>
+                        </div>
+                        <button id="generate-btn" class="primary-btn action-btn">
+                            <span class="btn-text">Generate Podcast</span>
+                            <div class="loader"></div>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Step 3: Agent Progress -->
+                <section class="step-card disabled" id="step-progress">
+                    <div class="step-header">
+                        <span class="step-number">3</span>
+                        <h3>Agent Workflow</h3>
+                    </div>
+                    <div class="step-content">
+                        <div class="agent-pipeline">
+                            <div class="agent-node" id="node-PlanningAgent">
+                                <div class="node-icon">📝</div>
+                                <div class="node-label">Planning</div>
+                                <div class="node-status">Waiting</div>
+                            </div>
+                            <div class="agent-arrow">→</div>
+                            <div class="agent-node" id="node-RetrievalAgent">
+                                <div class="node-icon">🔍</div>
+                                <div class="node-label">Retrieval</div>
+                                <div class="node-status">Waiting</div>
+                            </div>
+                            <div class="agent-arrow">→</div>
+                            <div class="agent-node" id="node-ScriptWriterAgent">
+                                <div class="node-icon">✍️</div>
+                                <div class="node-label">Scripting</div>
+                                <div class="node-status">Waiting</div>
+                            </div>
+                            <div class="agent-arrow">→</div>
+                            <div class="agent-node" id="node-FactCheckerAgent">
+                                <div class="node-icon">✅</div>
+                                <div class="node-label">Fact Check</div>
+                                <div class="node-status">Waiting</div>
+                            </div>
+                            <div class="agent-arrow">→</div>
+                            <div class="agent-node" id="node-TTSAgent">
+                                <div class="node-icon">🗣️</div>
+                                <div class="node-label">TTS</div>
+                                <div class="node-status">Waiting</div>
+                            </div>
+                            <div class="agent-arrow">→</div>
+                            <div class="agent-node" id="node-AudioMixerAgent">
+                                <div class="node-icon">🎚️</div>
+                                <div class="node-label">Mixing</div>
+                                <div class="node-status">Waiting</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Step 4: Result -->
+                <section class="step-card disabled" id="step-result">
+                    <div class="step-header">
+                        <span class="step-number">4</span>
+                        <h3>Your Podcast</h3>
+                    </div>
+                    <div class="step-content">
+                        <div class="audio-player-container">
+                            <div class="audio-info">
+                                <h4 id="result-title">Podcast Title</h4>
+                                <span id="result-duration">00:00</span>
+                            </div>
+                            <audio id="audio-player" controls>
+                                Your browser does not support the audio element.
+                            </audio>
+                            <a id="download-link" href="#" class="secondary-btn" download>Download MP3</a>
+                        </div>
+
+                        <div class="script-container">
+                            <h4>Script</h4>
+                            <div id="script-display" class="script-content"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

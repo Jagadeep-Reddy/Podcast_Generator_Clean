@@ -1,0 +1,283 @@
+2025-11-20 14:18:13,960 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:18:13,961 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:18:14,026 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:18:14,027 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:18:14,232 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:18:14,232 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:18:18,203 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:18:18,207 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:18:18,303 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:18:18,308 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:18:18,574 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:18:18,579 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:18:27,786 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\agents\\tts_agent.py', reloading
+2025-11-20 14:18:27,823 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\agents\\tts_agent.py', reloading
+2025-11-20 14:18:28,373 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\agents\\tts_agent.py', reloading
+2025-11-20 14:18:45,310 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:18:45,310 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:18:45,333 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:18:45,333 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:18:45,427 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:18:45,427 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:18:49,487 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:18:49,492 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:18:49,523 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:18:49,531 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:18:49,579 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:18:49,583 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:18:58,920 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:18:58,920 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:19:03,062 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 14:19:03,063 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-20 14:19:03,066 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 14:19:15,789 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:19:15,789 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:19:19,878 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:19:19,883 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:19:33,822 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:19:33] "GET / HTTP/1.1" 200 -
+2025-11-20 14:19:34,445 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:19:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-11-20 14:19:34,488 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:19:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-20 14:19:34,925 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:19:34] "GET /history HTTP/1.1" 200 -
+2025-11-20 14:20:13,743 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:20:13] "POST /generate-podcast HTTP/1.1" 200 -
+2025-11-20 14:20:14,310 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-11-20 14:20:14,313 - Orchestrator - ERROR - [36154740-7540-4fb9-9eab-2c0acb60cbed] Workflow failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-11-20 14:20:14,770 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:20:14] "GET /podcast/status/36154740-7540-4fb9-9eab-2c0acb60cbed HTTP/1.1" 200 -
+2025-11-20 14:20:50,209 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:20:50] "POST /generate-podcast HTTP/1.1" 200 -
+2025-11-20 14:20:50,299 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-11-20 14:20:50,301 - Orchestrator - ERROR - [9d7dc485-f4e2-4afb-8356-6dcf153f90ef] Workflow failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-11-20 14:20:51,210 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:20:51] "GET /podcast/status/9d7dc485-f4e2-4afb-8356-6dcf153f90ef HTTP/1.1" 200 -
+2025-11-20 14:25:05,139 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:25:05,140 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:25:09,940 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 14:25:09,940 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-20 14:25:09,941 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 14:25:17,805 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:25:17] "GET / HTTP/1.1" 200 -
+2025-11-20 14:25:17,874 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:25:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-20 14:25:18,055 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:25:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-11-20 14:25:18,150 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:25:18] "GET /history HTTP/1.1" 200 -
+2025-11-20 14:25:28,156 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:25:28,156 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:25:33,415 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:25:33,421 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:26:24,748 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:26:24] "POST /generate-podcast HTTP/1.1" 200 -
+2025-11-20 14:26:24,839 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-11-20 14:26:24,844 - Orchestrator - ERROR - [006d9c85-02c3-4d1d-97b3-3f8d44fd38e2] Workflow failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-11-20 14:26:25,769 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:26:25] "GET /podcast/status/006d9c85-02c3-4d1d-97b3-3f8d44fd38e2 HTTP/1.1" 200 -
+2025-11-20 14:27:08,145 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:27:08] "GET / HTTP/1.1" 200 -
+2025-11-20 14:27:08,228 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:27:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-20 14:27:08,258 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:27:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-11-20 14:27:08,347 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:27:08] "GET /history HTTP/1.1" 200 -
+2025-11-20 14:27:29,621 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:27:29] "POST /generate-podcast HTTP/1.1" 200 -
+2025-11-20 14:27:29,759 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-11-20 14:27:29,761 - Orchestrator - ERROR - [477611c9-b075-4d74-9344-9e8bad6204c7] Workflow failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-11-20 14:27:30,643 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:27:30] "GET /podcast/status/477611c9-b075-4d74-9344-9e8bad6204c7 HTTP/1.1" 200 -
+2025-11-20 14:28:12,478 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\test_key.py', reloading
+2025-11-20 14:28:14,394 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\test_key.py', reloading
+2025-11-20 14:28:15,475 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\test_key.py', reloading
+2025-11-20 14:28:15,852 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\test_key.py', reloading
+2025-11-20 14:28:24,426 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 14:28:49,700 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:28:49,700 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:28:49,747 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:28:49,748 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:28:49,748 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:28:49,748 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:28:49,947 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:28:49,948 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:28:54,717 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:28:54,728 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:28:55,019 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:28:55,028 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:28:55,290 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:28:55,300 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:28:56,199 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:28:56,207 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:29:28,582 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\llm_client.py', reloading
+2025-11-20 14:29:29,522 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\llm_client.py', reloading
+2025-11-20 14:29:30,216 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\llm_client.py', reloading
+2025-11-20 14:29:30,721 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\llm_client.py', reloading
+2025-11-20 14:29:30,779 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\llm_client.py', reloading
+2025-11-20 14:29:49,017 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:29:49,018 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:29:51,575 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:29:51,576 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:29:53,345 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:29:53,349 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:29:55,228 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 14:29:55,228 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-20 14:29:55,229 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 14:30:04,950 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:30:04,950 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:30:14,043 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:30:14,053 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:30:30,376 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:30:30] "GET / HTTP/1.1" 200 -
+2025-11-20 14:30:30,792 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:30:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-11-20 14:30:30,795 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:30:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-20 14:30:30,820 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:30:30] "GET /history HTTP/1.1" 200 -
+2025-11-20 14:31:30,610 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:31:30] "POST /generate-podcast HTTP/1.1" 200 -
+2025-11-20 14:31:31,060 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-11-20 14:31:31,061 - Orchestrator - ERROR - [b0755e0c-6db0-4242-b144-bb92b0cc86a0] Workflow failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-11-20 14:31:31,621 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:31:31] "GET /podcast/status/b0755e0c-6db0-4242-b144-bb92b0cc86a0 HTTP/1.1" 200 -
+2025-11-20 14:31:39,743 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:31:39] "POST /generate-podcast HTTP/1.1" 200 -
+2025-11-20 14:31:39,795 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-11-20 14:31:39,797 - Orchestrator - ERROR - [e49a07e4-e114-4b52-b1a8-28ca9a02b652] Workflow failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-11-20 14:31:40,755 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:31:40] "GET /podcast/status/e49a07e4-e114-4b52-b1a8-28ca9a02b652 HTTP/1.1" 200 -
+2025-11-20 14:32:52,658 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:32:52,658 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:32:56,226 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 14:32:56,226 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-20 14:32:56,228 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 14:33:04,414 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:33:04,414 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:33:08,199 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:33:08,204 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:33:32,358 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:32] "GET / HTTP/1.1" 200 -
+2025-11-20 14:33:32,678 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-11-20 14:33:32,683 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-20 14:33:32,694 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:32] "GET /history HTTP/1.1" 200 -
+2025-11-20 14:33:51,637 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:51] "POST /generate-podcast HTTP/1.1" 200 -
+2025-11-20 14:33:52,669 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:52] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:33:52,713 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 14:33:53,650 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:53] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:33:54,649 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:54] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:33:55,650 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:55] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:33:56,657 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:56] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:33:57,394 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 14:33:57,659 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:57] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:33:58,590 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 14:33:58,653 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:58] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:33:59,711 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:33:59] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:34:00,727 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:34:00] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:34:01,707 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:34:01] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:34:02,708 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:34:02] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:34:03,709 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:34:03] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:34:04,523 - Orchestrator - ERROR - [4247d13a-ee1a-45f1-9bdc-e7db6a44b718] Workflow failed: [WinError 2] The system cannot find the file specified
+2025-11-20 14:34:04,649 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:34:04] "GET /podcast/status/4247d13a-ee1a-45f1-9bdc-e7db6a44b718 HTTP/1.1" 200 -
+2025-11-20 14:34:42,304 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\agents\\tts_agent.py', reloading
+2025-11-20 14:34:43,822 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 14:35:01,645 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:35:01,645 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:35:07,238 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 14:35:07,238 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-20 14:35:07,239 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 14:35:15,029 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:35:15,029 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:35:18,675 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:35:18,682 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:35:26,014 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:26] "GET / HTTP/1.1" 200 -
+2025-11-20 14:35:26,238 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-11-20 14:35:26,251 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-20 14:35:26,259 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:26] "GET /history HTTP/1.1" 200 -
+2025-11-20 14:35:41,620 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:41] "POST /generate-podcast HTTP/1.1" 200 -
+2025-11-20 14:35:42,516 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 14:35:42,633 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:42] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:43,641 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:43] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:44,641 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:44] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:45,632 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:45] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:46,639 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:46] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:46,778 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 14:35:47,627 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:47] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:47,921 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 14:35:48,633 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:48] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:49,681 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:49] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:50,649 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:50] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:51,665 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:51] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:52,641 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:52] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:53,630 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:53] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:54,296 - Orchestrator - INFO - [8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d] Workflow completed successfully.
+2025-11-20 14:35:54,636 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:54] "GET /podcast/status/8ce5a6ea-53e6-4f98-9f75-ec944aa24c7d HTTP/1.1" 200 -
+2025-11-20 14:35:54,644 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:54] "GET /history HTTP/1.1" 200 -
+2025-11-20 14:35:54,657 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:35:54] "[35m[1mGET /outputs/5869e588-7090-4d2c-9420-be4338b37bd8_mixed.wav HTTP/1.1[0m" 206 -
+2025-11-20 14:36:04,059 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:36:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-20 14:36:04,176 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:36:04] "[35m[1mGET /outputs/5869e588-7090-4d2c-9420-be4338b37bd8_mixed.wav HTTP/1.1[0m" 206 -
+2025-11-20 14:36:04,181 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:36:04] "[35m[1mGET /outputs/5869e588-7090-4d2c-9420-be4338b37bd8_mixed.wav HTTP/1.1[0m" 206 -
+2025-11-20 14:37:52,080 - werkzeug - INFO -  * Detected change in 'C:\\Users\\jagadheep reddy\\Desktop\\Projects\\agents\\tts_agent.py', reloading
+2025-11-20 14:37:53,249 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 14:38:12,251 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:38:12,251 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:38:15,890 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 14:38:15,890 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-20 14:38:15,892 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 14:38:24,113 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-20 14:38:24,113 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 14:38:27,928 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 14:38:27,933 - werkzeug - INFO -  * Debugger PIN: 120-570-798
+2025-11-20 14:38:38,369 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:38:38] "GET / HTTP/1.1" 200 -
+2025-11-20 14:38:38,609 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:38:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-11-20 14:38:38,628 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:38:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-20 14:38:38,638 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:38:38] "GET /history HTTP/1.1" 200 -
+2025-11-20 14:39:00,521 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:00] "POST /generate-podcast HTTP/1.1" 200 -
+2025-11-20 14:39:01,532 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:01] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:01,612 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 14:39:02,527 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:02] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:03,526 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:03] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:04,526 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:04] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:05,536 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:05] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:05,911 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 14:39:06,535 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:06] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:07,056 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 14:39:07,537 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:07] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:08,531 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:08] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:09,533 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:09] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:10,529 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:10] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:11,528 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:11] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:12,528 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:12] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:13,539 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:13] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:14,548 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:14] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:15,526 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:15] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:16,538 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:16] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:17,556 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:17] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:18,529 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:18] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:19,530 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:19] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:20,584 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:20] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:21,530 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:21] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:22,536 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:22] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:23,537 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:23] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:24,538 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:24] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:25,536 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:25] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:26,535 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:26] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:27,542 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:27] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:28,537 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:28] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:29,528 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:29] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:30,528 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:30] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:31,530 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:31] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:32,529 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:32] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:33,542 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:33] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:34,540 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:34] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:35,540 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:35] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:36,547 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:36] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:37,538 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:37] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:38,538 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:38] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:39,530 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:39] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:40,537 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:40] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:41,536 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:41] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:42,537 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:42] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:43,555 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:43] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:44,531 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:44] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:45,534 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:45] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:46,529 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:46] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:47,531 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:47] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:48,552 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:48] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:49,526 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:49] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:50,533 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:50] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:51,535 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:51] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:52,543 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:52] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:53,530 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:53] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:54,542 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:54] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:54,747 - Orchestrator - INFO - [438c5d44-e49b-44e0-b1a3-2b0e771a3663] Workflow completed successfully.
+2025-11-20 14:39:55,537 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:55] "GET /podcast/status/438c5d44-e49b-44e0-b1a3-2b0e771a3663 HTTP/1.1" 200 -
+2025-11-20 14:39:55,548 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:55] "GET /history HTTP/1.1" 200 -
+2025-11-20 14:39:55,561 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:39:55] "[35m[1mGET /outputs/2bf94720-3077-488c-a26a-0375083e16ae.mp3 HTTP/1.1[0m" 206 -
+2025-11-20 14:40:24,134 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:40:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-20 14:40:26,079 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:40:26] "[35m[1mGET /outputs/2bf94720-3077-488c-a26a-0375083e16ae.mp3 HTTP/1.1[0m" 206 -
+2025-11-20 14:40:26,085 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 14:40:26] "[35m[1mGET /outputs/2bf94720-3077-488c-a26a-0375083e16ae.mp3 HTTP/1.1[0m" 206 -
+2025-11-20 17:11:10,971 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 17:11:10] "GET / HTTP/1.1" 200 -
+2025-11-20 17:11:11,085 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 17:11:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-20 17:11:11,087 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 17:11:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-11-20 17:11:11,170 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 17:11:11] "GET /history HTTP/1.1" 200 -
