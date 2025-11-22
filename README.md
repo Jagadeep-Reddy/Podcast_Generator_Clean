@@ -46,6 +46,23 @@ Podcast_Generator_Clean/
 ├── graph_rag.py            # Graph RAG implementation
 ├── community_detector.py   # Community detection logic
 ├── community_summarizer.py # Summarization across communities
+
+Raw Text
+   ↓
+Text Utils → Preprocessing
+   ↓
+Entity Extractor → Entities
+   ↓
+Graph Models → Knowledge Graph
+   ↓
+Graph RAG → Enhanced Context
+   ↓
+Community Detector → Clusters
+   ↓
+Summarizer → Episode-level summaries
+   ↓
+Final Podcast Output (Markdown/Audio-ready)
+
 ├── query_engine.py         # Query + retrieval logic
 ├── prompts.py              # Prompt templates
 │
